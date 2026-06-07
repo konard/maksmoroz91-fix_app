@@ -43,6 +43,7 @@ kotlin {
 dependencies {
     // olcrtc gomobile AAR — кладётся в android/app/libs/olcrtc.aar
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar", "*.jar"))))
+    testImplementation("junit:junit:4.13.2")
 }
 
 flutter {
